@@ -21,17 +21,19 @@ namespace MouseLight
                 "General",
                 "Cursor light",
                 "Enable cursor light",
-                "Illuminate the world position under the mouse in dark conditions.",
-                "Light intensity",
-                "Controls the target illumination level of the HDRP cursor spotlight.",
+                "Illuminate the game world position pointed to by the mouse in dark environments.",
+                "Light intensity multiplier",
+                "Controls the illumination intensity multiplier of the cursor spotlight.",
                 "Range multiplier",
-                "Controls the target illuminated radius as the camera distance changes.",
-                "Red",
-                "Red channel of the spotlight color.",
-                "Green",
-                "Green channel of the spotlight color.",
-                "Blue",
-                "Blue channel of the spotlight color."));
+                "Controls how much the target illumination radius changes with camera distance.",
+                "Red channel",
+                "Controls the red component of the spotlight color.",
+                "Green channel",
+                "Controls the green component of the spotlight color.",
+                "Blue channel",
+                "Controls the blue component of the spotlight color.",
+                "Reset settings",
+                "Restore all Mouse Light settings to their defaults."));
         }
 
         // 简体中文设置文本。
@@ -44,8 +46,8 @@ namespace MouseLight
                 "光标照明",
                 "启用光标照明",
                 "在较暗环境中照亮鼠标指向的游戏世界位置。",
-                "灯光亮度",
-                "控制 HDRP 鼠标聚光灯的目标照度。",
+                "灯光亮度倍率",
+                "控制鼠标聚光灯的光照强度倍率。",
                 "范围倍率",
                 "控制目标照明半径随摄像机距离变化的幅度。",
                 "红色通道",
@@ -53,7 +55,9 @@ namespace MouseLight
                 "绿色通道",
                 "控制聚光灯颜色的绿色分量。",
                 "蓝色通道",
-                "控制聚光灯颜色的蓝色分量。"));
+                "控制聚光灯颜色的蓝色分量。",
+                "重置设置",
+                "将鼠标灯光的全部设置恢复为默认值。"));
         }
 
         // 德语设置文本。
@@ -65,17 +69,19 @@ namespace MouseLight
                 "Allgemein",
                 "Cursor-Beleuchtung",
                 "Cursor-Beleuchtung aktivieren",
-                "Beleuchtet bei Dunkelheit die Weltposition unter dem Mauszeiger.",
-                "Lichtintensität",
-                "Bestimmt die Zielbeleuchtungsstärke des HDRP-Maus-Spotlights.",
+                "Beleuchtet in dunkler Umgebung die vom Mauszeiger markierte Position in der Spielwelt.",
+                "Lichtstärke-Multiplikator",
+                "Steuert den Multiplikator der Beleuchtungsstärke des Maus-Spotlights.",
                 "Reichweitenmultiplikator",
-                "Bestimmt den beleuchteten Zielradius bei wechselnder Kameradistanz.",
-                "Rot",
-                "Roter Farbkanal des Spotlights.",
-                "Grün",
-                "Grüner Farbkanal des Spotlights.",
-                "Blau",
-                "Blauer Farbkanal des Spotlights."));
+                "Steuert, wie stark sich der Zielbeleuchtungsradius mit der Kameradistanz verändert.",
+                "Rotkanal",
+                "Steuert den Rotanteil der Spotlight-Farbe.",
+                "Grünkanal",
+                "Steuert den Grünanteil der Spotlight-Farbe.",
+                "Blaukanal",
+                "Steuert den Blauanteil der Spotlight-Farbe.",
+                "Einstellungen zurücksetzen",
+                "Setzt alle Einstellungen von Mouse Light auf die Standardwerte zurück."));
         }
 
         private static IReadOnlyDictionary<string, string> CreateEntries(
@@ -94,7 +100,9 @@ namespace MouseLight
             string greenLabel,
             string greenDescription,
             string blueLabel,
-            string blueDescription)
+            string blueDescription,
+            string resetLabel,
+            string resetDescription)
         {
             // 所有语言共用 ModSetting 生成的稳定本地化键。
             return new Dictionary<string, string>
@@ -113,7 +121,9 @@ namespace MouseLight
                 { settings.GetOptionLabelLocaleID(nameof(MouseLightSettings.Green)), greenLabel },
                 { settings.GetOptionDescLocaleID(nameof(MouseLightSettings.Green)), greenDescription },
                 { settings.GetOptionLabelLocaleID(nameof(MouseLightSettings.Blue)), blueLabel },
-                { settings.GetOptionDescLocaleID(nameof(MouseLightSettings.Blue)), blueDescription }
+                { settings.GetOptionDescLocaleID(nameof(MouseLightSettings.Blue)), blueDescription },
+                { settings.GetOptionLabelLocaleID(nameof(MouseLightSettings.ResetSettings)), resetLabel },
+                { settings.GetOptionDescLocaleID(nameof(MouseLightSettings.ResetSettings)), resetDescription }
             };
         }
 

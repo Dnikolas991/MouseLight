@@ -7,3 +7,4 @@ C:\Users\123\RiderProjects\MouseLight\MouseLight\bin\Debug\net48\MouseLight.dll
 C:\Users\123\RiderProjects\MouseLight\MouseLight\bin\Debug\net48\MouseLight.pdb
 C:\Users\123\RiderProjects\MouseLight\MouseLight\obj\Debug\net48\MouseLight.dll
 C:\Users\123\RiderProjects\MouseLight\MouseLight\obj\Debug\net48\MouseLight.pdb
+C:\Users\123\RiderProjects\MouseLight\MouseLight\obj\Debug\net48\MouseLight.sourcelink.json
