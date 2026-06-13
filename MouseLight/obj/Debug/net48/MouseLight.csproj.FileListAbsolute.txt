@@ -1,0 +1,9 @@
+C:\Users\123\RiderProjects\MouseLight\MouseLight\obj\Debug\net48\MouseLight.csproj.AssemblyReference.cache
+C:\Users\123\RiderProjects\MouseLight\MouseLight\obj\Debug\net48\MouseLight.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\123\RiderProjects\MouseLight\MouseLight\obj\Debug\net48\MouseLight.AssemblyInfoInputs.cache
+C:\Users\123\RiderProjects\MouseLight\MouseLight\obj\Debug\net48\MouseLight.AssemblyInfo.cs
+C:\Users\123\RiderProjects\MouseLight\MouseLight\obj\Debug\net48\MouseLight.csproj.CoreCompileInputs.cache
+C:\Users\123\RiderProjects\MouseLight\MouseLight\bin\Debug\net48\MouseLight.dll
+C:\Users\123\RiderProjects\MouseLight\MouseLight\bin\Debug\net48\MouseLight.pdb
+C:\Users\123\RiderProjects\MouseLight\MouseLight\obj\Debug\net48\MouseLight.dll
+C:\Users\123\RiderProjects\MouseLight\MouseLight\obj\Debug\net48\MouseLight.pdb
