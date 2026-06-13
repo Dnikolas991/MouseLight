@@ -1,0 +1,37 @@
+# Rider、Visual Studio 与用户级配置
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET 构建与还原产物
+**/bin/
+**/obj/
+artifacts/
+packages/
+TestResults/
+
+# Cities: Skylines II 模组工具链临时文件
+**/Library/
+**/Temp/
+**/Logs/
+*.pid
+
+# 调试与系统生成文件
+*.log
+*.tmp
+*.bak
+*.cache
+*.pdb
+*.userprefs
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 本地发布输出与用户专属发布配置
+publish/
+PublishOutput/
+*.pubxml.user
+
